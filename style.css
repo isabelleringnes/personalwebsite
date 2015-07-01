@@ -45,17 +45,15 @@ li {display: inline;
 
 .col-sm-4 {
 	display: inline-block;
-	width: 400px;
+	width: 30%;
 	margin: 30px;
 	
 	
 }
 
 .col-sm-8 {display: inline-block;
-width: 800px;
+width: 600px;
 margin: 30px;
-	border: ridge;
-	border-color: #6495ED;
 	padding: 30px;
 
 }
@@ -67,3 +65,40 @@ width: 50%;
 #left {float: left;
 width: 50%;
 }
+
+.text { text-align: center;
+margin: 20px;
+  border: 30px;}
+
+  footer { list-style-type: none;
+  margin-right: 50px;
+  padding: 3px;
+  float: center;
+  border: solid;
+  border-radius: 5px;
+  border-color: white;
+  text-align: center;
+  color: #191970;
+  background-color: #7FFFD4;
+  }
+
+h2 {color: #7B68EE;}
+
+  footer.li { display: inline;
+  padding-left: 10px;
+  border: 1px;
+  margin-right: 50px;
+  margin-left: 50px;
+  
+
+
+  }
+
+  footer.ul {
+  	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+
+  }
