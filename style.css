@@ -3,9 +3,11 @@ body {
 }
 header {
 	border: solid;
-	border-color: pink;
+	border-radius: 30%;
+	border-color: #00FFFF;
 	font-size: 70px;
 	text-align: center;
+	color: #00FA9A;
 }
 nav {
 	list-style-type: none;
@@ -16,11 +18,13 @@ nav {
   border-radius: 5px;
   border-color: white;
   text-align: center;
-
-
+  color: #191970;
 }
 
-img {border: 2px solid;
+
+img {
+	margin-left: 50px;
+	border: 2px solid;
     border-radius: 50%;}
 
 ul {
@@ -31,7 +35,7 @@ ul {
     text-align: center;
 }
 
-li {display: inline-block;
+li {display: inline;
   padding-left: 10px;
   border: 1px;
   margin-right: 50px;
@@ -42,12 +46,24 @@ li {display: inline-block;
 .col-sm-4 {
 	display: inline-block;
 	width: 400px;
-	margin: 10px;
-	border-image: 20px;
+	margin: 30px;
+	
+	
 }
 
 .col-sm-8 {display: inline-block;
 width: 800px;
-margin: 10px;
-	border: solid;
+margin: 30px;
+	border: ridge;
+	border-color: #6495ED;
+	padding: 30px;
+
+}
+
+#right {float: left;
+width: 50%;
+}
+
+#left {float: left;
+width: 50%;
 }
