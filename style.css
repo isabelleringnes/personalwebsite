@@ -1,0 +1,53 @@
+body {
+	font-family: 'Cinzel', serif;
+}
+header {
+	border: solid;
+	border-color: pink;
+	font-size: 70px;
+	text-align: center;
+}
+nav {
+	list-style-type: none;
+  margin-right: 50px;
+  padding: 3px;
+  float: center;
+  border: solid;
+  border-radius: 5px;
+  border-color: white;
+  text-align: center;
+
+
+}
+
+img {border: 2px solid;
+    border-radius: 50%;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+li {display: inline-block;
+  padding-left: 10px;
+  border: 1px;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+
+.col-sm-4 {
+	display: inline-block;
+	width: 400px;
+	margin: 10px;
+	border-image: 20px;
+}
+
+.col-sm-8 {display: inline-block;
+width: 800px;
+margin: 10px;
+	border: solid;
+}
