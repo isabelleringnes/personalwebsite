@@ -1,0 +1,48 @@
+header {
+	border: solid;
+	border-radius: 30%;
+	border-color: #00FFFF;
+	font-size: 70px;
+	text-align: center;
+	color: #00FA9A;
+}
+         nav {
+	list-style-type: none;
+  margin-right: 50px;
+  padding: 3px;
+  float: center;
+  border: solid;
+  border-radius: 5px;
+  border-color: white;
+  text-align: center;
+  color: #191970;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+li {display: inline;
+  padding-left: 10px;
+  border: 1px;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+
+#content {
+                border: 1px solid green;
+                margin: 0px auto 0px auto;
+                padding: 0px 0px 0px 0px;
+                width: 70%;
+            }
+
+            #content .gutter {
+                margin: 25px 25px 25px 25px;
+                border: 1px solid red;
+            }
+   
